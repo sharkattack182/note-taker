@@ -20,7 +20,7 @@ app.get("/", function (req, res) {
 })
 
 app.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname+ "/public", "/notes.html"));
+    res.sendFile(path.join(__dirname + "/public", "/notes.html"));
 })
 
 app.get("/api/notes", function (req, res) {
@@ -45,6 +45,9 @@ app.post("/api/notes", function (req, res) {
     res.json(JSON.parse(array))
 });
 
+// app.delete("/api/notes/:id", function (req, res) {
+    
 
-// start the server on the port (this was in the starting point instructor gave dourung office hours)
+// })
+
 app.listen(PORT, () => console.log(`listening on PORT: ${PORT}`));
