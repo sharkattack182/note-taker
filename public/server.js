@@ -26,9 +26,6 @@ app.get("/notes", function(req, res) {
     res.sendFile(path.join(__dirname, "/notes.html"));
 })
 
-app.get("/index.js", function(req, res) {
-    res.sendFile(path.join(__dirname, "/assets/js/index.js"));
-})
 //display notes
 
 // start the server on the port (this was in the starting point instructor gave dourung office hours)
