@@ -47,4 +47,5 @@
 
  ## Links
  [github:](https://https://github.com/sharkattack182/note-taker)
+ <br>
  [deployed:](https://fathomless-wave-82517.herokuapp.com/)
