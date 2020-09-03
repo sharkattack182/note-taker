@@ -3,7 +3,6 @@ const express = require("express");
 const apiRoutes = require("./routes/apiRoutes");
 const htmlRoutes = require("./routes/htmlRoutes");
 const path = require("paths");
-const fs = require("fs");
 
 
 
@@ -20,15 +19,15 @@ app.use("/", htmlRoutes)
 
 //app.get functions/ send files
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "index.html"));
+    res.sendFile(path.join(__dirname, "/index.html"));
 })
 
 app.get("/notes", function(req, res) {
-    res.sendFile(path.join(__dirname, "notes.html"));
+    res.sendFile(path.join(__dirname, "/notes.html"));
 })
 
 app.get("/index.js", function(req, res) {
-    res.sendFile(path.join(__dirname, "assets/js/index.js"));
+    res.sendFile(path.join(__dirname, "/assets/js/index.js"));
 })
 //display notes
 
