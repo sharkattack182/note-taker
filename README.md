@@ -46,5 +46,5 @@
   <img src="public/assets/imgs/Capture4.PNG" alt="example1" width="500" height="237"/>
 
  ## Links
- [github:] (https://https://github.com/sharkattack182/note-taker)
- [deployed:] (https://fathomless-wave-82517.herokuapp.com/)
+ [github:](https://https://github.com/sharkattack182/note-taker)
+ [deployed:](https://fathomless-wave-82517.herokuapp.com/)
